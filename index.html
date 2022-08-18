@@ -11,6 +11,7 @@
     />
     <link rel="stylesheet" href="./assets/css/base.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/img/shopee.png" />
     <link
       rel="stylesheet"
       href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css"
@@ -26,16 +27,39 @@
         <div class="grid">
           <nav class="header__navbar">
             <ul class="header__navbar-list">
-              <li class="header__navbar-item header__navbar-item--separate">
+              <li class="header__navbar-item header__navbar-item--qr header__navbar-item--separate">
                 Vào cửa hàng trên ứng dụng
+                <div class="header__qr">
+                  <img
+                    src="./assets/img/qr_code.png"
+                    alt="QR code"
+                    class="header__qr-img"
+                  />
+                  <div class="header__qr-apps">
+                    <a href="" class="header__app-link">
+                      <img
+                        src="./assets/img/google_play.png"
+                        alt="GG Play"
+                        class="header__qr-download-img"
+                      />
+                    </a>
+                    <a href="" class="header__app-link">
+                      <img
+                        src="./assets/img/app_store.png"
+                        alt="APP Store"
+                        class="header__qr-download-img"
+                      />
+                    </a>
+                  </div>
+                </div>
               </li>
               <li class="header__navbar-item">
-                Kết nối
+                <span class="header__navbar-title--no-pointer">Kết nối</span>
                 <a href="" class="header__navbar-icon-link">
-                  <i class="fa-brands fa-facebook"></i>
+                  <i class="header__navbar-icon fa-brands fa-facebook"></i>
                 </a>
                 <a href="" class="header__navbar-icon-link">
-                  <i class="fa-brands fa-instagram"></i>
+                  <i class="header__navbar-icon fa-brands fa-instagram"></i>
                 </a>
               </li>
             </ul>
@@ -43,7 +67,7 @@
               <li class="header__navbar-item">
                 <a href="" class="header__navbar-item-link">
                   <a href="" class="header__navbar-icon-link">
-                    <i class="fa-solid fa-bell"></i>
+                    <i class="header__navbar-icon fa-solid fa-bell"></i>
                   </a>
                   Thông báo
                 </a>
@@ -51,7 +75,9 @@
               <li class="header__navbar-item">
                 <a href="" class="header__navbar-item-link">
                   <a href="" class="header__navbar-icon-link">
-                    <i class="fa-solid fa-circle-question"></i>
+                    <i
+                      class="header__navbar-icon fa-solid fa-circle-question"
+                    ></i>
                   </a>
                   Trợ giúp
                 </a>
